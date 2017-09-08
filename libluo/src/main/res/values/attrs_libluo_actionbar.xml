@@ -1,0 +1,22 @@
+<resources>
+    <declare-styleable name="Actionbar">
+
+        <!--图-->
+        <attr name="leftDrawable" format="color|reference"/>
+        <attr name="rightDrawable" format="color|reference"/>
+        <attr name="midLeftDrawable" format="color|reference"/>
+        <attr name="midRightDrawable" format="color|reference"/>
+        <!--字色值-->
+        <attr name="leftTxtColor" format="color"/>
+        <attr name="midTxtColor" format="color"/>
+        <attr name="rightTxtColor" format="color"/>
+        <!-- 字大小-->
+        <attr name="sideTxtSize" format="dimension"/>
+        <attr name="midTxtSize" format="dimension"/>
+        <!-- 字-->
+        <attr name="leftTxt" format="string"/>
+        <attr name="midTxt" format="string"/>
+        <attr name="rightTxt" format="string"/>
+
+    </declare-styleable>
+</resources>

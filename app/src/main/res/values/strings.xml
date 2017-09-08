@@ -1,0 +1,285 @@
+<resources>
+    <string name="app_name">Login</string>
+
+    <!-- 通用 -->
+    <string name="save">保存</string>
+    <string name="confirm_modify">确认修改</string>
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="free">免费</string>
+    <string name="fee">收费</string>
+    <string name="buy">购买</string>
+    <string name="payment">付款</string>
+    <string name="pay">支付</string>
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <string name="forget_pwd">密码重置</string>
+    <string name="input_mobile">请输入用户名</string>
+    <string name="price_s">¥%s</string>
+    <string name="second_d">%d 秒</string>
+    <string name="num_d">数量: %d</string>
+    <string name="total_price_s">总价: %s</string>
+    <string name="alipay">支付宝</string>
+    <string name="male">男</string>
+    <string name="female">女</string>
+
+    <!-- 登录 -->
+    <string name="login_input_pwd">请输入登录密码</string>
+    <string name="login_find_pwd">找回密码</string>
+
+    <!-- 注册 -->
+    <string name="regist_input_code">请输入验证码</string>
+    <string name="regist_get_code">获取验证码</string>
+    <string name="regist_set_pwd">请设置密码</string>
+    <string name="regist_agree_service">我已阅读并同意《甜生活用户协议》</string>
+    <string name="regist_login">注册并登录</string>
+    <string name="immediately_login">立即登录</string>
+
+    <!-- 密码重置 -->
+    <string name="forget_pwd_input_code">请输入短信验证码</string>
+    <string name="forget_pwd_send_code">发送验证码</string>
+    <string name="forget_pwd_input_new_pwd">请输入新密码</string>
+
+    <!-- 首页 -->
+    <string name="tab_home">甜生活</string>
+    <string name="tab_event">活动</string>
+    <string name="tab_circle">辣妈圈</string>
+    <string name="tab_my">我的</string>
+    <string name="tab_photos">晒照</string>
+
+    <!-- 贝贝宝 -->
+    <string name="home_store">全部门店</string>
+    <string name="home_near_store">附近门店</string>
+    <string name="home_gps_invalid">请开启定位获得更精确定位服务</string>
+
+    <!-- 活动列表 -->
+    <string name="event_name_s">\u3000\u3000\u3000\u0020\u0020\u0020%s</string>
+    <string name="event_time_s">%1$s - %2$s</string>
+
+    <!-- 活动详情 -->
+    <string name="event_detail_title">活动信息</string>
+    <string name="event_detail_sign_up">报名</string>
+    <string name="event_detail_registered">已报名</string>
+    <string name="event_detail_full">已满员</string>
+
+    <!-- 消息 -->
+    <string name="message_title">消息</string>
+    <string name="message_system_msg">系统消息</string>
+
+    <!-- 门店列表 -->
+    <string name="store_lists_title">门店列表</string>
+    <string name="store_star_rate_title">星级:</string>
+    <string name="store_distance_title">距离:</string>
+    <string name="store_format_distance_m">%sm</string>
+    <string name="store_format_distance_km">%skm</string>
+    <string name="store_format_score">%d分</string>
+
+    <!-- 服务介绍 -->
+    <string name="service_introduction_title">服务介绍</string>
+
+    <!-- 我的 -->
+    <string name="my_order">我的订单</string>
+    <string name="my_post">我的帖子</string>
+    <string name="my_activity">我的活动</string>
+    <string name="my_account_security">账号安全</string>
+
+    <!-- 我的订单 -->
+    <string name="my_order_tab_pending_pay">待付款</string>
+    <string name="my_order_tab_pending_used">待使用</string>
+    <string name="my_order_tab_pending_refunds">退款</string>
+    <string name="my_order_tab_pending_historical_order">历史订单</string>
+
+    <!-- 订单详情 -->
+    <string name="order_detail_title">订单详情</string>
+    <string name="order_detail_request_refund">退款</string>
+    <string name="order_detail_request_pay">付款</string>
+    <string name="order_detail_order_info">订单信息</string>
+    <string name="order_detail_voucher">兑换券</string>
+    <string name="order_detail_pay">支付</string>
+    <string name="order_detail_order_no">订单号:</string>
+    <string name="order_detail_order_store">门店:</string>
+    <string name="order_detail_order_service">服务:</string>
+    <string name="order_detail_order_num">数量:</string>
+    <string name="order_detail_order_total_price">总价:</string>
+    <string name="order_detail_order_voucher_d_s">券%1$d:%2$s</string>
+    <string name="order_detail_order_pay_type">支付方式:</string>
+    <string name="order_detail_order_create_time">下单时间:</string>
+    <string name="order_detail_cancel_pay">取消付款</string>
+
+    <!-- 兑换券 -->
+    <string name="voucher_un_spend">待消费</string>
+    <string name="voucher_spend_success">消费成功</string>
+    <string name="voucher_refunding">退款中</string>
+    <string name="voucher_refund_success">退款成功</string>
+
+    <!-- 提交订单 -->
+    <string name="submit_order_title">提交订单</string>
+    <string name="submit_order_wxpay">微信支付</string>
+    <string name="submit_order_alipay">支付宝支付</string>
+    <string name="submit_order_service_title">服务名称：</string>
+    <string name="submit_order_failed">抱歉，支付失败</string>
+    <string name="submit_order_success">购买服务成功</string>
+    <string name="submit_order_pay_again">重新支付</string>
+    <string name="submit_order_to_view">查看订单</string>
+    <string name="submit_order_continue_to_choose">继续选择</string>
+    <string name="submit_order_store_name">门店名称:</string>
+    <string name="submit_order_service_name">服务项目:</string>
+    <string name="submit_order_num">数量:</string>
+    <string name="submit_order_service_price">服务单价:</string>
+    <string name="submit_order_bind_mobile">绑定手机号:</string>
+    <string name="submit_order_order_time">订单时间:</string>
+
+    <!-- 活动提交订单 -->
+    <string name="event_submit_order_name">名称:</string>
+    <string name="event_submit_order_time">时间:</string>
+    <string name="event_submit_order_location">地点:</string>
+    <string name="event_submit_order_success">支付成功</string>
+    <string name="event_submit_order_failed">支付失败</string>
+
+    <!-- 退款 -->
+    <string name="refund_request_refund">申请退款</string>
+    <string name="refund_num">退款数量:</string>
+    <string name="refund_price">退款金额:</string>
+    <string name="refund_type">退款方式:</string>
+    <string name="refund_type_txt">原路退回（1-7个工作日内退款到原支付方）</string>
+
+    <!-- 更多设置 -->
+    <string name="setting_more_settings">更多设置</string>
+    <string name="setting_user_agreement">用户协议</string>
+    <string name="setting_user_detail">个人资料</string>
+    <string name="setting_about_us">关于我们</string>
+    <string name="setting_sign_out">退出登录</string>
+
+    <!-- 关于我们 -->
+    <string name="about_us_wx">微信公众号</string>
+    <string name="about_us_website">公司网址</string>
+    <string name="about_us_tel">客服电话</string>
+    <string name="about_us_wx_value">yunlingbaby@126.com</string>
+    <string name="about_us_website_value">www.yunlingsh.com</string>
+    <string name="about_us_tel_value">0571-88133561</string>
+
+    <!-- 个人资料 -->
+    <string name="my_detail_image">头像</string>
+    <string name="my_detail_nickname">昵称</string>
+    <string name="my_detail_info_title">萌娃资料</string>
+    <string name="my_detail_username">姓名</string>
+    <string name="my_detail_sex">性别</string>
+    <string name="my_detail_birthday">宝宝破壳日</string>
+    <string name="my_detail_sex_un_known">未知</string>
+
+    <!-- 账号安全 -->
+    <string name="account_security_mobile">手机号:</string>
+    <string name="account_security_pwd">密码:</string>
+    <string name="account_security_modify_pwd">去修改</string>
+
+    <!-- 修改密码 -->
+    <string name="modify_pwd_title">修改密码</string>
+    <string name="modify_pwd_old_pwd">请输入原密码</string>
+    <string name="modify_pwd_new_pwd">请输入新密码</string>
+    <string name="modify_pwd_confirm_new_pwd">请确认新密码</string>
+
+    <!-- 网页 -->
+    <string name="pageLoading">加载中......</string>
+
+    <!-- 弹窗 -->
+    <string name="is_sign_up_event">是否确认报名</string>
+    <string name="is_delete_message">是否删除消息</string>
+    <string name="refund_success_msg">您已提交申请，退款将会在1-7个工作日内退回原支付方</string>
+
+    <!-- 提示 -->
+    <string name="toast_input_cellphone">请输入手机号码</string>
+    <string name="toast_input_pwd">请输入密码</string>
+    <string name="toast_input_new_pwd">请输入新密码</string>
+    <string name="toast_input_code">请输入验证码</string>
+    <string name="toast_time_out">网络中断，请检查您的网络状态</string>
+    <string name="toast_pwd_error">密码不一致</string>
+
+    <string name="toast_get_code_success">获取验证码成功</string>
+    <string name="toast_modify_success">编辑成功</string>
+    <string name="toast_regist_success">注册成功</string>
+    <string name="toast_sign_out_success">退出登录成功</string>
+    <string name="toast_reset_pwd_success">密码重置成功</string>
+    <string name="toast_modify_pwd_success">密码修改成功</string>
+
+    <!-- 发布信息 -->
+    <string name="post_news_title">发布信息</string>
+    <string name="post_news_success">发布成功，等待审核</string>
+
+    <!-- 用户协议 -->
+    <string name="user_agreement_text">请仔细阅读本协议，甜生活App平台将依据以下条件和条款为您提供服务。\n
+欢迎阅读甜生活App平台用户协议(下称“本协议”)。本协议阐述之条款和条件适用于用户使用甜生活App平台所提供的各种工具和服务(下称“服务”)\n
+1．服务条款的确认\n
+甜生活平台根据本服务协议及对本协议的修改向用户提供服务。\n
+为获得甜生活平台服务，用户已审慎和仔细阅读本协议，清楚理解本协议的全部条款和含义，包括免除或者限制甜生活平台责任的免责条款以及对用户的权利限制条款，并且完全接受本协议项下的全部条款。如果用户对协议的任何条款表示异议，可以选择不注册，在用户点选“注册”并通过注册程序，即表示用户自愿接受本协议项下的所有条款，并已成为甜生活平台的注册会员。用户使用甜生活平台服务视为用户完全同意接受甜生活平台会员服务提供的各类信息服务，并受本协议的约束。\n
+2．服务内容及修改、中断、终止\n
+&#160;&#160;2.1 甜生活平台服务的具体内容由平台根据现有技术及实际情况提供，并对所提供的服务拥有最终解释权。\n
+&#160;&#160;2.2 甜生活平台仅向其会员提供相关服务，与相关服务有关的设备（如个人电脑、手机、及其他与接入互联网或移动网有关的装置）及所需的费用（如为接入互联网而支付的电话费及上网费、为使用移动网而支付的手机费）均由会员自行负担。\n
+&#160;&#160;2.3 鉴于网络服务的特殊性，用户同意甜生活平台有权不经事先通知，随时变更、中断或终止部分或全部的网络服务（包括收费网络服务）。甜生活平台不担保网络服务不会中断，对网络服务的及时性、安全性、准确性也都不作担保。\n
+&#160;&#160;2.4 甜生活平台有权定期或不定期地对提供网络服务的平台或相关的设备进行检修或者维护，如因此类情况而造成网络服务（包括收费网络服务）在合理时间内的中断，甜生活平台无需为此承担任何责任。甜生活平台保留不经事先通知为维修保养、升级或其它目的暂停全部或部分的网络服务的权利。\n
+&#160;&#160;2.5 用户明确同意其使用甜生活平台网络服务所存在的风险将完全由其自己承担。用户理解并接受下载或通过甜生活平台服务而链接及得到的资讯、产品及服务均系甜生活平台自动搜录，甜生活平台对其合法性概不负责，亦不承担任何法律责任，用户自行承担风险，甜生活平台不做任何形式的保证，不保证搜索结果满足用户的要求，不保证搜索服务不中断，对搜索结果的安全性、正确性、及时性、合法性均不做担保。\n
+&#160;&#160;2.6 甜生活平台对超过6个月未登录使用的用户帐号，保留关闭的权利。\n
+&#160;&#160;2.7 甜生活平台有权于任何时间暂时或永久修改或终止本服务（或其任何部分），而无论其通知与否，甜生活平台对用户和任何第三人均无需承担任何责任。\n
+&#160;&#160;2.8 甜生活平台有权判定用户是否符合或违反本协议的相关要求，包括但不限于长时间未使用，或达不到本服务协议的文字及精神等，甜生活平台无需进行事先通知，有权终止用户的帐号和密码的使用，并立即关闭或删除用户的帐号及帐号中所有相关信息及文件，将用户在本服务内的任何内容加以移除并删除，或禁止继续使用前述文件或本服务。本协议即自动终止，甜生活平台对用户或任何第三人均不承担任何责任。
+\n3．会员帐号及密码\n
+用户注册会员成功后，甜生活平台将给予每个会员一个帐号及相应的密码，该帐号和密码由用户负责保管；用户应当对以其用户帐号进行的所有活动和事件负法律责任。\n
+因黑客行为或会员保管疏忽致使帐号、密码被他人非法使用的，甜生活平台不承担任何责任。如用户发现任何非法使用会员帐号或安全漏洞的情况，请立即与甜生活平台联系。\n
+4. 注册信息和隐私保护
+&#160;&#160;4.1 甜生活平台帐号（即甜生活平台用户ID）的所有权归甜生活平台，用户完成注册申请手续后，获得甜生活平台帐号的使用权。用户应提供及时、详尽及准确的个人资料，并不断更新注册资料，符合及时、详尽准确的要求。所有原始键入的资料将作为注册资料。如果因用户注册信息不真实而引起的问题及其产生的后果，甜生活平台不负任何责任。
+&#160;&#160;4.2 用户不得将其帐号、密码转让或出借予他人使用。如发现其帐号遭他人非法使用，应立即通知甜生活平台。\n
+&#160;&#160;4.3 甜生活平台不对外公开或向第三方提供单个用户的注册资料，除非：\n
+&#160;&#160;• 只有透露用户的个人资料，才能提供用户所要求的产品和服务；\n
+&#160;&#160;• 根据有关的法律法规要求；\n
+&#160;&#160;• 按照相关政府主管部门的要求；
+&#160;&#160;• 为维护甜生活平台的合法权益，甜生活平台认为有必要提供的。\n
+&#160;&#160;4.4 在用户注册甜生活平台帐户，使用甜生活平台产品或服务，或访问甜生活平台网页时，甜生活平台会收集用户的个人身份识别资料，并会将这些资料用于：改进甜生活平台提供的服务及网页内容。\n
+5. 用户权责\n
+&#160;&#160;5.1符合下列条件之一的个人、组织，才能申请成为甜生活平台用户、使用本协议项下的服务：\n
+&#160;&#160;&#160;&#160;5.1.1 年满十八周岁，并具有民事权利能力和民事行为能力的自然人；\n
+&#160;&#160;&#160;&#160;5.1.2 未满十八周岁，但监护人（包括但不仅限于父母）予以书面同意的自然人；\n
+&#160;&#160;&#160;&#160;5.1.3 根据中国法律、法规成立并合法存在的公司等企业法人、事业单位、社团组织和其他组织。无民事行为能力人、限制民事行为能力人以及无经营或特定经营资格的组织不当注册为用户的，其与本公司之间的协议自始无效，甜生活平台一经发现，有权立即注销该用户。\n
+&#160;&#160;5.2 用户有权按照甜生活平台规定的程序和要求使用甜生活平台向会员提供的各项网络服务，如果会员对该服务有异议，可以与甜生活平台联系以便得到及时解决。\n
+&#160;&#160;5.3 用户在申请使用甜生活平台网络服务时，必须向甜生活平台提供准确的个人资料，如个人资料有任何变动，必须及时更新，若用户提供虚假的资料，甜生活平台一经发现，有权立即注销该用户，其相应的法律后果由用户自行承担。\n
+&#160;&#160;5.4 用户同意接受甜生活平台通过电子邮件或其他方式向会员发送相关商业信息。\n
+&#160;&#160;5.5 用户在使用甜生活平台服务时，必须遵守中华人民共和国相关法律法规的规定，不得利用本服务进行任何违法或不正当的活动，包括但不限于下列行为∶\n
+&#160;&#160;&#160;&#160;5.5.1 制作、复制、发布、传播或以其它方式传送含有下列内容之一的信息：\n
+&#160;&#160;&#160;&#160;&#160;&#160;•反对宪法所确定的基本原则的\n
+&#160;&#160;&#160;&#160;&#160;&#160;•危害国家安全，泄露国家秘密，颠覆国家政权，破坏国家统一的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•损害国家荣誉和利益的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•煽动民族仇恨、民族歧视、破坏民族团结的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•破坏国家宗教政策，宣扬邪教和封建迷信的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•散布谣言，扰乱社会秩序，破坏社会稳定的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•散布淫秽、色情、赌博、暴力、凶杀、恐怖或者教唆犯罪的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•侮辱或者诽谤他人，侵害他人合法权利的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•煽动非法集会、结社、游行、示威、聚众扰乱社会秩序的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•以非法民间组织名义活动的；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•含有虚假、有害、胁迫、侵害他人隐私、骚扰、侵害、中伤、粗俗、猥亵、或其它道德上令人反感的内容；\n
+&#160;&#160;&#160;&#160;&#160;&#160;•含有中国法律、法规、规章、条例以及任何具有法律效力之规范所限制或禁止的其它内容的。\n
+&#160;&#160;5.5.2 不得利用甜生活服务从事以下活动：\n
+&#160;&#160;&#160;&#160;•未经允许，进入计算机信息网络或者使用计算机信息网络资源；\n
+&#160;&#160;&#160;&#160;•未经允许，对计算机信息网络功能进行删除、修改或者增加；\n
+&#160;&#160;&#160;&#160;•未经允许，对进入计算机信息网络中存储、处理或者传输的数据和应用程序进行删除、修改或者增加；\n
+&#160;&#160;&#160;&#160;•故意制作、传播计算机病毒等破坏性程序；\n
+&#160;&#160;&#160;&#160;•其他危害计算机信息网络安全的行为。\n
+&#160;&#160;5.6 用户违反本协议或相关的服务条款的规定，导致或产生的任何第三方主张的任何索赔、要求或损失，包括但不限于合理的律师费、诉讼法等，由用户自行承担，若造成甜生活平台与合作公司、关联公司损失的，甜生活平台与合作公司、关联公司有权向用户追偿。对此，甜生活平台有权视用户的行为性质，采取包括但不限于删除用户发布信息内容、暂停使用许可、终止服务、限制使用、回收甜生活平台帐号、追究法律责任等措施。对恶意注册甜生活平台帐号或利用甜生活平台帐号进行违法活动、捣乱、骚扰、欺骗、其他用户以及其他违反本协议的行为，甜生活平台有权回收其帐号。同时，本公司会视司法部门的要求，协助调查。
+&#160;&#160;5.7 用户不得对甜生活平台任何部分通过任何方式进行复制、拷贝、出售、转售或用于任何其它商业目的。\n
+&#160;&#160;5.8 用户须对自己在使用甜生活平台服务过程中的行为承担法律责任。用户承担法律责任的形式包括但不限于：对受到侵害者进行赔偿，弥补损失等，以及在甜生活平台运营公司先行承担了因用户行为导致的行政处罚或侵权损害赔偿责任后，用户应给予甜生活平台运营公司等额的赔偿，若等额赔偿不足以弥补甜生活平台损失的，甜生活平台有权继续向用户追偿。\n
+6. 知识产权\n
+&#160;&#160;6.1 甜生活平台网站及网站所使用的任何相关软件、程序、内容，包括但不限于作品、图片、档案、资料、网站构架、网站版面的安排、网页设计、经由本网站或广告商向用户呈现的广告或资讯，均由甜生活平台或其它权利人依法享有相应的知识产权，包括但不限于著作权、商标权、专利权或其它专属权利等，受到相关法律的保护。未经甜生活平台或权利人书面授权，用户保证不修改、出租、出借、出售、散布本网站及本网站所使用的上述任何资料和资源，或根据上述资料和资源制作成任何种类物品。\n
+&#160;&#160;6.2甜生活平台授予用户不可转移及非专属的使用权，用户可以通过单机计算机使用本网站的目标代码（以下简称“软件”），但用户不得且不得允许任何第三方，复制、修改、创作衍生作品、进行还原工程、反向组译，或以其它方式破译或试图破译源代码，或出售、转让“软件”或对“软件”进行再授权，或以其它方式移转“软件”之任何权利。用户同意不以任何方式修改“软件”，或使用修改后的“软件”。\n
+&#160;&#160;6.3 甜生活平台有权在所有由平台提供的功能界面标注“此功能由甜生活平台提供”等相关版权信息。。\n
+&#160;&#160;6.4 用户不得经由非甜生活平台所提供的界面使用本网站。\n
+7. 其他\n
+&#160;&#160;7.1 因不可抗力或者其他意外事件，使得本协议的履行不可能、不必要或者无意义的，双方均不承担责任。本协议所称之不可抗力意指不能预见、不能避免并不能克服的客观情况，包括但不限于战争、台风、水灾、火灾、雷击或地震、罢工、暴动、法定疾病、黑客攻击、网络病毒、电信部门技术管制、政府行为或任何其它自然或人为造成的灾难等客观情况。\n
+&#160;&#160;7.2 本条款及其修订本的有效性、履行和与本条款及其修订本效力有关的所有事宜，将受中华人民共和国法律约束，任何争议仅适用中华人民共和国法律。\n
+&#160;&#160;7.3 因本条款所引起的用户与本公司的任何纠纷或争议，首先应友好协商解决，协商不成的，用户在此同意将纠纷或争议提交本公司住所地有管辖权的人民法院诉讼解决。\n
+&#160;&#160;7.4用户正确提交注册程序所需的资料并确认本协议后，本协议在甜生活平台与用户之间成立并生效。\n
+&#160;&#160;7.5本协议生效前的注册用户只需要使用原用户名及密码登录甜生活平台网站重新接受并确认本协议，即可继续使用甜生活平台的服务。\n
+&#160;&#160;7.6协议有效期：从用户同意本协议或使用甜生活平台起至用户注销甜生活平台服务止。\n
+&#160;&#160;7.7本协议如无特殊规定，双方应当使用电子邮件方式就本协议相关事项进行联系。\n
+&#160;&#160;7.8甜生活平台各相关部门的电子邮箱以在甜生活平台官方网站上注明的为准。\n
+&#160;&#160;7.9使用甜生活平台即表示接受甜生活平台服务协议及其所有附件。\n
+&#160;&#160;7.10本协议的最终解释权归甜生活平台所有。\n
+</string>
+    <string name="my_detail_name">姓名</string>
+    <string name="bind_phone_title">绑定手机</string>
+</resources>

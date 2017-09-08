@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+
+
+    <RelativeLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="注册"
+            android:gravity="right"
+            android:onClick="OnRegister"
+            android:layout_marginRight="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="36dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="50dp"
+            >
+            <ImageView
+                android:id="@+id/ivBackground"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scaleType="centerCrop"
+                android:layout_gravity="center"
+                android:src="@drawable/kuaicto" />
+            <EditText
+                android:id="@+id/edtPhone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="50dp"
+                android:background="@null"
+
+                android:drawablePadding="15dp"
+                android:hint="@string/input_mobile"
+                android:inputType="phone"
+                android:textColorHint="@color/color_B6"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/viewLine_1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/edtPhone"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/color_E6" />
+
+            <EditText
+                android:id="@+id/edtPassword"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/viewLine_1"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="25dp"
+                android:background="@null"
+
+                android:drawablePadding="15dip"
+                android:hint="@string/login_input_pwd"
+                android:inputType="textPassword"
+                android:textColorHint="@color/color_B6"
+                android:textSize="14sp" />
+
+            <View
+                android:id="@+id/viewLine_2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/edtPassword"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="5dp"
+                android:background="@color/color_E6" />
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_below="@+id/viewLine_2"
+                android:layout_marginLeft="15dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/bg_btn_confirm"
+                android:text="@string/login"
+                android:textColor="@color/white"
+                android:onClick="onClickLoginButton"
+                android:textSize="16sp" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_login_qq"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginLeft="60dp"
+            android:onClick="qqLogin"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_qq"
+            android:drawablePadding="10dp"
+            android:text="QQ登录"
+            android:textSize="15sp"
+            android:textColor="@color/color666666"
+            />
+
+        <TextView
+            android:id="@+id/tv_login_wechat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="40dp"
+            android:layout_marginRight="60dp"
+            android:gravity="center"
+            android:drawableLeft="@drawable/ic_weixin"
+            android:drawablePadding="10dp"
+            android:onClick="weixinLogin"
+            android:text="微信登录"
+            android:textSize="15sp"
+            android:textColor="@color/color666666"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/tv_login_qq"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="25dp"
+            android:text="其他方式登录"
+            android:textSize="14sp"
+            android:textColor="@color/color999999"
+            />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

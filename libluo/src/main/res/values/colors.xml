@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- actionbar start-->
+    <color name="actionbar_leftTxt">#fff</color>
+    <color name="actionbar_midTxt">#fff</color>
+    <color name="actionbar_rightTxt">#fff</color>
+    <color name="actionbar_line_actionbar">#cccccc</color>
+    <!-- actionbar end-->
+        <color name="colorPrimary">#EF5A22</color>
+
+</resources>

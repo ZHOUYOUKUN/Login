@@ -1,9 +1,13 @@
 package com.sudao.module_share.presenters;
 
 import android.app.Activity;
+import android.content.Context;
+import android.support.annotation.Nullable;
+
 import com.sudao.module_share.entity.ImageShareType;
 import com.sudao.module_share.entity.WebURL;
 import com.umeng.socialize.ShareAction;
+import com.umeng.socialize.UMShareAPI;
 import com.umeng.socialize.UMShareListener;
 import com.umeng.socialize.bean.SHARE_MEDIA;
 import com.umeng.socialize.media.BaseMediaObject;
@@ -222,4 +226,6 @@ public class CustomShare {
                 .setCallback(umShareListener)
                 .share();
     }
+
+
 }
